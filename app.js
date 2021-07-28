@@ -9,7 +9,7 @@ const app = Vue.createApp({
         }
     },
     methods: {
-        async getUser() {SDSS
+        async getUser() {
             const res = await fetch('https://randomuser.me/api/')
             const {results} = await res.json()
 
